@@ -12,7 +12,12 @@ Analysis of this project was performed using VBA programming to mine, analyze an
 2. Total Volume of each stock for that year
 3. Stock Return
 
-As mentioned previously, code was refactored to create a version that not only be faster but more efficient at performing the analysis  
+As mentioned previously, code was refactored to create a version that not only proved to be much faster but more efficient at performing the analysis. `tickerIndex`, a new variable was used in the code as the index when accessing the various arrays. Where refactoring made a difference in the analysis was where it reduces the number of times it looped through the worksheet for the data for each stock. It performed the loop only once, and stored the details for each individual stocks (in this case they are 12 stocks) in three (3) arrays - all were indexed at 12 to correlate with the ticker arrays. See below:
+1. tickerVolumes(12) 
+2. tickerStartingPrices(12) 
+3. tickerEndingPrices(12)
+
+Another loop is then created to loop through four (4) arrays and output the information from the intial step.
 
 Two analysis was conducted during this research excercise. They are:
 1. Comparing the stock performance between 2017 and 2018
