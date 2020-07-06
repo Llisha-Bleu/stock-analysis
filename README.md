@@ -21,10 +21,10 @@ Two analysis was conducted during this research excercise. They are:
 Based on the stock performance between year 2017 and year 2018, Steve could show and recommend to his parents the `ENPH` and `RUN` stocks as they showed growth in their returns consistentlty over the years. Majority of the stocks that showed positive growth in year 2017 showed a decline in growth in 2018, much like the stock Steve's parents were interested in i.e "DQ" which indicated a `+199%` return in 2017 and a `-63%` loss in 2018. On the other hand we do have stocks that have been performing poorly consistently over the two (2) years such as `TERP` ticker as it shows a steady decline with `-7%` loss in 2017 and `-5%` in 2018. Please see the images below:
 
  **Image 1: Showing All stocks ticker performance in the year 2017:**
-![VBA_Challenge_2017](./Resources/VBA_Challenge_2017.png)
+![VBA_Challenge_2017](./Resources/VBA_Challenge_2017.PNG)
 
  **Image 2: Showing All stocks ticker performance in the year 2018:**
-![VBA_Challenge_2018](./Resources/VBA_Challenge_2018.png)
+![VBA_Challenge_2018](./Resources/VBA_Challenge_2018.PNG)
 
 ### Compare the execution times of the original script and the refactored script
 The original script in 2017 ran at `0.8320313` seconds whilst in the refactored script it ran at `0.151123` seconds. This indicates that the refactored scripted performed faster by `0.68` seconds. The code was ran also in 2018, it ran at `0.8359375` second for the old script and `0.177002` seconds in the refactored script. Similar to the 2017 script, it demonstrated that the refactored script performed the analysis faster by `0.66` seconds. See image 1 and 2 above which also indicates the execution times year 2017 and 2018 of the refactored scipts.
