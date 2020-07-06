@@ -19,7 +19,7 @@ As mentioned previously, code was refactored to create a version that not only p
 
 Another loop is then created to loop through four (4) arrays and output the information from the intial step.
 
-Two analysis was conducted during this research excercise. They are:
+**Two analysis was conducted during this research excercise. They are:**
 1. Comparing the stock performance between 2017 and 2018
 2. Comparing the execution times of the original script and the refactored script
 
