@@ -1,7 +1,7 @@
 # stock-analysis
 
 ## Overview of Project
-Utilizing historical data, this project seeks to utilize dataset of the entire stock market over the last few years, specifically year 2017 and 2018. VBA programming will be used as the main tool to analyze the dataset. Past codes will be used to leverage data, by way of either refactoring or editing previously used codes from the Module 2 solution. This will be acheived by switching between the nesting order of `for` loops.
+Utilizing historical data, this project seeks to use dataset of the entire stock market over the last few years, specifically year 2017 and 2018. VBA programming will be used as the main tool to analyze the dataset. Past codes will be used to leverage data, by way of either refactoring or editing previously used codes from the Module 2 solution. This will be acheived by switching between the nesting order of `for` loops.
 
 ### Purpose
 The purpose of this analysis is to determine whether refactoring the code successfully made the VBA programming faster or not. 
