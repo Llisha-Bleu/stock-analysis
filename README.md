@@ -12,6 +12,8 @@ Analysis of this project was performed using VBA programming to mine, analyze an
 2. Total Volume of each stock for that year
 3. Stock Return
 
+As mentioned previously, code was refactored to create a version that not only be faster but more efficient at performing the analysis  
+
 Two analysis was conducted during this research excercise. They are:
 1. Comparing the stock performance between 2017 and 2018
 2. Comparing the execution times of the original script and the refactored script
@@ -37,7 +39,7 @@ The original script in 2017 ran at `0.8320313` seconds whilst in the refactored 
 >**Disadvantages:** Refactoring a code can be time consuming if not done correctly, and one might introduce more errors or bugs into the code. Doing so have the potential of making things more complex, and even more expensive.
 
 ### How do these pros and cons apply to refactoring the original VBA script?
->Refactoring the original code proved to be a challenging one, bugs and error kept on occuring one in particular remained consistent i.e error overflow; the outputs of the starting and ending prices where not beeing stored correctly. It took hours to sort through the code to find the error. Understanding the code is another crucial compnent here, if the coder does not have a good grasp of the intricacies and details that goes into the code, debugging the code could prove to be tedious, hence leaving notes/comments about the code is essential. 
+>Refactoring the original code proved to be a challenging one, bugs and errors kept on occuring one in particular remained consistent i.e error overflow; the outputs of the starting and ending prices where not beeing stored correctly. It took hours to sort through the code to find the error. Understanding the code is another crucial compnent here, if the coder does not have a good grasp of the intricacies and details that goes into the code, debugging the code could prove to be tedious, hence leaving notes/comments about the code is essential. 
 
 >In hindsight, the refactored code has shown to be a much faster, cleaner code. It not only improved the design of the analysis but once done correctly, made for a much easier code to read and understand.
 
